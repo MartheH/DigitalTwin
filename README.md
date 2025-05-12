@@ -25,7 +25,7 @@ The digital twin visualizes real-time telemetry and positioning data from an ROV
 README.md  
 
 Getting Started  
-Clone the repository:   
+Clone the repository   
 Open the project in Unity Hub.  
 Make sure your MQTT broker is running and configured to accept telemetry data.  
 In Unity, press Play to start the simulation.   
