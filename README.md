@@ -8,11 +8,11 @@ The digital twin visualizes real-time telemetry and positioning data from an ROV
 -Simulated subsea environment with terrain and marine assets  
 -Digital representation of BlueROV2  
 -Pipe-following visualization and acoustic positioning feedback  
--Built in Unity using C# scripting and MQTT libraries  
+-Built-in Unity using C# scripting and MQTT libraries  
 
 ## Requirements  
 -Unity 2021.3 LTS or later (tested on Unity 2021.3.X)  
--MQTT Broker (e.g., Mosquitto)  
+-MQTT Broker   
 -ROV system running MQTT-compatible telemetry (e.g., Raspberry Pi with MQTT publisher)  
 -.NET Standard 2.0-compatible MQTT library (e.g., MQTTnet)  
 
@@ -25,12 +25,10 @@ The digital twin visualizes real-time telemetry and positioning data from an ROV
 README.md  
 
 Getting Started  
-Clone the repository:  
-git clone https://github.com/yourusername/your-repo-name.git  
+Clone the repository:   
 Open the project in Unity Hub.  
 Make sure your MQTT broker is running and configured to accept telemetry data.  
-In Unity, press Play to start the simulation.  
-Adjust MQTT topics and broker IP in MqttHandler.cs as needed.  
+In Unity, press Play to start the simulation.   
 
 MQTT Topics Used  
 /pipe – Pipe-following controller data  
