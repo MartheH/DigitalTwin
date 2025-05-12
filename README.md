@@ -10,13 +10,13 @@ The digital twin visualizes real-time telemetry and positioning data from an ROV
 -Pipe-following visualization and acoustic positioning feedback  
 -Built in Unity using C# scripting and MQTT libraries  
 
-#Requirements#  
+## Requirements  
 -Unity 2021.3 LTS or later (tested on Unity 2021.3.X)  
 -MQTT Broker (e.g., Mosquitto)  
 -ROV system running MQTT-compatible telemetry (e.g., Raspberry Pi with MQTT publisher)  
 -.NET Standard 2.0-compatible MQTT library (e.g., MQTTnet)  
 
-#Project Structure#
+## Project Structure  
 /Assets  
   /Scripts            -> C# scripts for data parsing and object control  
   /Prefabs            -> BlueROV2 model and components  
