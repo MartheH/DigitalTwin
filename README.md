@@ -36,6 +36,6 @@ MQTT Topics Used
 
 Acknowledgments  
 This project was developed as part of the bachelor thesis:  
-“Autonomous ROV Platform for Efficient Underwater Sensor Testing”  
+“Rapidly Deployable Subsea Test Platform with Semi-Autonomous Navigation, Global Positioning and Physics-Based Object Detection​”  
 University of South-Eastern Norway – Campus Vestfold
 in collaboration with Kongsberg Discovery.
